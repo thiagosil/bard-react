@@ -28,9 +28,11 @@ class ChampionList extends React.Component {
       <div className="container">
         <h2>Champions</h2>
 
-        <ul className="heroes">
-          {rows}
-        </ul>
+        <div class="row">
+          <ul className="heroes">
+            {rows}
+          </ul>
+        </div>
 
       </div>
     </section>

@@ -19,11 +19,9 @@ class ChampionRow extends React.Component {
   render() {
     return (
         <li>
-          <div className="fl-left bloc-3">
-            <a href={this.getLolKingUrl(this.props.champion.key)}>
-                <img src={this.getImageUrl(this.props.champion.key)}/>
-            </a>
-          </div>
+          <a href={this.getLolKingUrl(this.props.champion.key)}>
+              <img src={this.getImageUrl(this.props.champion.key)} className="champion-pic"/>
+          </a>
         </li>
     );
   }
